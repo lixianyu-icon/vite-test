@@ -1,0 +1,32 @@
+.t_table_header{
+    .boxShadow();
+    height: auto;
+    line-height: none;
+    padding: 15px 0 15px 15px;
+    margin-bottom: 20px;
+} 
+.t_table_content{
+    .boxShadow(); 
+    padding: 15px;
+    padding-bottom: 60px;
+    overflow: auto;
+    position: relative;
+}
+.t_pagination{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+// 设置斑马色
+.ant-table-striped .table-striped { 
+    background-color: #fafafa;
+}
+.ant-table-striped,
+.ant-table-striped .ant-spin-nested-loading,
+.ant-table-striped .ant-spin-nested-loading .ant-spin-container{
+    height: 100%;
+}
+
+.ant-spin-nested-loading > div > .ant-spin{
+    max-height: none;
+}
